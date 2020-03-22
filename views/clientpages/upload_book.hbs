@@ -1,0 +1,298 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="breadcrumb-area breadcrumb-bg-1 pt-50 pb-70  mt-9" style="background: url(../../admin/images/up.jpg);margin-bottom:-100px;background-size: cover">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="breadcrumb-title" style="margin-left: 0px;font-size: 43px;color: white;">Add New Book</h1>
+
+               <!--=======  breadcrumb list  ======-->
+
+                <ul class="breadcrumb-list">
+                    <li class="breadcrumb-list__item"><a href="index.html">HOME</a></li>
+                    <li class="breadcrumb-list__item breadcrumb-list__item--active">customer login</li>
+                </ul>
+
+                &lt;!&ndash;=======  End of breadcrumb list  =======&ndash;&gt;
+
+            </div>
+        </div>
+    </div>
+</div><!--
+&lt;!&ndash;
+<span style="color: #ffffff;">shdsdhsjdhsjh</span>jfdhdjfhjdfhfjdhfdjhj
+&ndash;&gt;-->
+<div class="login-area mb-130 mb-md-70 mb-sm-70 mb-xs-70 mb-xxs-70">
+    <div class="container"><center>
+
+            <div class="col-sm-5" style="padding-right: 0px;
+padding-left: 0px;background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);box-shadow: 0px 0px 14px 0px rgba(179,179,179,0.75);
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(179,179,179,0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(179,179,179,0.75);min-width: 70%;
+    ">
+                <form  enctype="multipart/form-data"
+
+                       method="post"
+                id="uploadForm">
+                <div class="lezada-form login-form--register">
+                        <div class="row">
+                            <div class="col-lg-12">
+                          <!--      &lt;!&ndash;=======  login title  =======&ndash;&gt;
+-->
+                                <div class="section-title section-title--login text-center mb-0">
+                                    <h2 class="mb-10">Upload book</h2>
+                                    <p>Plase Add Valid Information!!</p>
+                                    <br>
+                                </div>
+
+                           <!--     &lt;!&ndash;=======  End of login title  =======&ndash;&gt;
+                          -->  </div>
+                            <div class="col-lg-12 mb-25">
+
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <input type="text" placeholder="Book Titile" name="up_title" id="up_title"  >
+                                        <div id="err_up_title">     </div>
+
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <input type="text" placeholder="Book ISBN" name="up_isbn" id="up_isbn" >
+                                        <div id="err_up_isbn">     </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                            <div class="col-lg-12 mb-25">
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                <input type="text" placeholder="Author Name" autocomplete="true" name="automplete" id="automplete" >
+                                    <div id="err_up_auth_name">     </div>
+                                    <input type="hidden" id="au_id" name="au_id">
+                                <!--   &lt;!&ndash; <select class="form-control" style="border:none;-webkit-appearance: none;background: transparent;border-bottom: 3px solid #BFBFBF;border-radius: 0px">
+                                        <option>Select Author </option>
+                                        <option>Author</option>
+                                    </select>&ndash;&gt;
+                               --> </div>
+
+                                <div class="col-sm-6">
+                                    <input type="text" placeholder="Edition" name="up_edition" id="up_edition" >
+                                    <div id="err_up_edition">     </div>
+                                </div>
+
+                            </div>
+
+
+                            </div>
+
+
+                            <div class="col-lg-12 mb-25">
+
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <input type="text" placeholder="Book Publication" name="up_pub" id="up_pub" required>
+                                        <div id="err_up_pub">     </div>
+
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                    <!--    <input type="text" placeholder="Publication Year" name="up_year" id="up_year" required>
+                                   -->
+                                        <select class="form-control" id="srl1" name="srl1" style="margin-top: 9px;;border:none;-webkit-appearance: none;background: transparent;border-bottom: 3px solid #BFBFBF;border-radius: 0px" required>
+                                            <option selected value='0'>Select Publication Year </option>
+                                        </select>
+                                        <div id="err_up_year">     </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="col-lg-12 mb-25">
+
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <select class="form-control" id="srl" name="srl" style="margin-top: 9px;;border:none;-webkit-appearance: none;background: transparent;border-bottom: 3px solid #BFBFBF;border-radius: 0px" required>
+                                            <option selected value='0'>Select Category </option>
+                                          </select>
+              <!--                       &lt;!&ndash; <select class="form-control" id="catt">
+                                          <option value="1" selected >Select </option>
+                                      </select>  <div id="err_usr_name">     </div>
+&ndash;&gt;
+               -->
+                                        <div id="err_up_cat">     </div>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <input type="text" placeholder="Refence Link" name="up_rlink" id="up_rlink" required>
+                                    </div>
+                                    <div id="err_up_lik">     </div>
+
+                                </div>
+
+
+                            </div>
+                            <div class="col-lg-12 mb-25">
+
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                      Image1  <input type="file" placeholder="Book Category" name="userPhoto" id="userPhoto" required>
+                                        <div id="img_err">     </div>
+
+                                    </div>
+
+                                  <!--  <div class="col-sm-6">
+                                 &lt;!&ndash;   image2    <input type="file" placeholder="Refence Link" name="up_rlink" id="up_rlink" >
+                                    </div>
+                                  &ndash;&gt;--><br>
+                                    <div class="col-sm-6">
+
+                                    Book Pdf <input type="file" placeholder="Book Category" name="user" id="user" required>
+                                    <div id="err_pdf">     </div>
+
+                                 </div>
+
+
+                            </div>
+
+                            <div class="col-lg-12 mb-25">
+
+                  <!--           &lt;!&ndash;   <div class="row">
+                                    <div class="col-sm-12">
+                                       Book Pdf <input type="file" placeholder="Book Category" name="up_cat" id="up_cat" >
+                                        <div id="err_usr_name">     </div>
+
+                                    </div>
+
+
+                            </div>&ndash;&gt;
+           -->                     <br>
+                            <div class="col-lg-12 text-center">
+                                <button class="lezada-button lezada-button--medium" id="upload_book">register</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                </form>
+
+<!--
+
+     &lt;!&ndash;   <!doctype html>
+        <html lang = "en">
+        <head>
+            <meta charset = "utf-8">
+            <title>jQuery UI Autocomplete functionality</title>
+    &ndash;&gt;
+            &lt;!&ndash; Javascript
+            <script>
+                $(function() {
+                    var availableTutorials  =  [
+                        "ActionScript",
+                        "Bootstrap",
+                        "C",
+                        "C++",
+                            'nikita',
+                    ];
+                    $( "#automplete-1" ).autocomplete({
+                        source: availableTutorials
+                    });
+                });
+            </script>
+        </head>
+
+        <body>
+        &lt;!&ndash; HTML &ndash;&gt;
+      &lt;!&ndash;  <div class = "ui-widget">
+            <p>Type "a" or "s"</p>
+            <label for = "automplete-1">Tags: </label>
+            <input id = "automplete-1">
+        </div>
+        </body>
+        </html>
+        </div>
+    </div>&ndash;&gt;
+    </center>
+</div>
+
+</body>
+<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+      rel = "stylesheet">
+&lt;!&ndash;
+<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+<script src="../../client/client_js/upload_book.js"></script>
+&ndash;&gt;
+-->
+            </div></center></div></div></body>
+
+
+</html>
+
+<!--
+<html>
+<head>
+    <title>File upload Node.</title>
+</head>
+<body>
+<form id="uploadForm"
+      enctype="multipart/form-data"
+      action="/book/api/photo"
+      method="post">
+    <input type="file" name="userPhoto" />
+    <input type="file" name="user" />
+
+    <input type="submit" value="Upload Image" name="submit">
+    <span id = "status"></span>
+</form>
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+</html>
+--><!--
+
+<script>
+    $(document).ready(function() {
+
+        $('#uploadForm').submit(function() {
+            alert("submit form")
+            $("#status").empty().text("File is uploading...");
+            $(this).ajaxSubmit({
+
+                error: function(xhr) {
+                    status('Error: ' + xhr.status);
+                },
+
+                success: function(response) {
+                    $("#status").empty().text(response);
+                    console.log(response);
+                    alert("Nikita submit");
+                }
+            });
+            //Very important line, it disable the page refresh.
+            return false;
+        });
+    });
+</script>
+-->

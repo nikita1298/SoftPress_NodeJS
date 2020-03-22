@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/public/admin/book.js" line="53" mnemonic="9" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="562a25c8-0bbc-4ab7-8642-0883b1fc8374" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="clientside.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/client/client_js/clientside.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1326">
+              <caret line="78" column="11" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/adminpages/dashboard.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client_header.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/partials/client_header.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3791">
+              <caret line="225" column="60" selection-start-line="225" selection-start-column="60" selection-end-line="225" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_header.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/partials/admin_header.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3179">
+              <caret line="187" column="50" selection-start-line="187" selection-start-column="50" selection-end-line="187" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p_art.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/clientpages/p_art.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="book.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/admin/book.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1054">
+              <caret line="62" column="97" selection-start-line="62" selection-start-column="88" selection-end-line="62" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7497">
+              <caret line="441" column="50" selection-start-line="441" selection-start-column="50" selection-end-line="441" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article_category.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/adminpages/article_category.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/admin/article.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tras</find>
+      <find>alert</find>
+      <find>trash</find>
+      <find>view book</find>
+      <find>book</find>
+      <find>book deta</find>
+      <find>book de</find>
+      <find>Details</find>
+      <find>Book D</find>
+      <find>art</find>
+      <find>viewbook</find>
+      <find>pdf</find>
+      <find>Deta</find>
+      <find>mobile</find>
+      <find>gatmenu</find>
+      <find>Discover Book</find>
+      <find>Discover Books</find>
+      <find>Discover Ar</find>
+      <find>shop-left-sidebar.html</find>
+      <find>mobil</find>
+      <find>mybtnbdel</find>
+      <find>hrca</find>
+      <find>Bookcat</find>
+      <find>updt_cat_del</find>
+      <find>dashbo</find>
+      <find>add_</find>
+      <find>&gt;a&lt;</find>
+      <find>abd</find>
+      <find>Num</find>
+      <find>20</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>automplete</replace>
+      <replace />
+      <replace>Article</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/views/clientpages/foooter" />
+        <option value="$PROJECT_DIR$/views/clientpages/login.hbs" />
+        <option value="$PROJECT_DIR$/public/client/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/views/clientpages/refertofriend.hbs" />
+        <option value="$PROJECT_DIR$/public/admin/bower_components/bootstrap/less/mixins/grid-framework.less" />
+        <option value="$PROJECT_DIR$/public/admin/bower_components/bootstrap/dist/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/public/admin/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/public/admin/style.default.css" />
+        <option value="$PROJECT_DIR$/routes/articcle.js" />
+        <option value="$PROJECT_DIR$/public/fsm.min.css" />
+        <option value="$PROJECT_DIR$/UPLOAD_OLD.txt" />
+        <option value="$PROJECT_DIR$/models/article.js" />
+        <option value="$PROJECT_DIR$/public/admin/bower_components/font-awesome/css/font-awesome.css" />
+        <option value="$PROJECT_DIR$/views/clientpages/upload_article.hbs" />
+        <option value="$PROJECT_DIR$/views/clientpages/upload_book.hbs" />
+        <option value="$PROJECT_DIR$/models/model_artical_category.js" />
+        <option value="$PROJECT_DIR$/views/adminpages/article_category.hbs" />
+        <option value="$PROJECT_DIR$/public/client/client_js/upload_book.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/layouts/layout.hbs" />
+        <option value="$PROJECT_DIR$/views/clientpages/p_art.hbs" />
+        <option value="$PROJECT_DIR$/routes/article.js" />
+        <option value="$PROJECT_DIR$/views/clientpages/clienthomepage.hbs" />
+        <option value="$PROJECT_DIR$/views/clientpages/homepage.hbs" />
+        <option value="$PROJECT_DIR$/routes/book.js" />
+        <option value="$PROJECT_DIR$/views/clientpages/p_book.hbs" />
+        <option value="$PROJECT_DIR$/views/clientpages/book_display.hbs" />
+        <option value="$PROJECT_DIR$/views/clientpages/article_display.hbs" />
+        <option value="$PROJECT_DIR$/models/model_book.js" />
+        <option value="$PROJECT_DIR$/models/model_article.js" />
+        <option value="$PROJECT_DIR$/models/model_like.js" />
+        <option value="$PROJECT_DIR$/models/model_shelf.js" />
+        <option value="$PROJECT_DIR$/routes/user.js" />
+        <option value="$PROJECT_DIR$/views/clientpages/shelf.hbs" />
+        <option value="$PROJECT_DIR$/public/client/client_js/login.js" />
+        <option value="$PROJECT_DIR$/views/adminpages/book_category.hbs" />
+        <option value="$PROJECT_DIR$/views/adminpages/rept_user.hbs" />
+        <option value="$PROJECT_DIR$/views/adminpages/shortlist_article.hbs" />
+        <option value="$PROJECT_DIR$/views/adminpages/shortlist_book.hbs" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/adminpages/new_book.hbs" />
+        <option value="$PROJECT_DIR$/views/adminpages/new_article.hbs" />
+        <option value="$PROJECT_DIR$/views/adminpages/view_book.hbs" />
+        <option value="$PROJECT_DIR$/views/adminpages/view_article.hbs" />
+        <option value="$PROJECT_DIR$/views/partials/client_header.hbs" />
+        <option value="$PROJECT_DIR$/views/adminpages/dashboard.hbs" />
+        <option value="$PROJECT_DIR$/views/partials/admin_header.hbs" />
+        <option value="$PROJECT_DIR$/public/client/client_js/clientside.js" />
+        <option value="$PROJECT_DIR$/routes/admin.js" />
+        <option value="$PROJECT_DIR$/public/admin/book.js" />
+        <option value="$PROJECT_DIR$/public/admin/article.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/public/admin/bower_components/Flot/package.json" />
+      <path value="$PROJECT_DIR$/public/admin/bower_components/bootstrap-datepicker/package.json" />
+      <path value="$PROJECT_DIR$/public/admin/bower_components/bootstrap-daterangepicker/package.json" />
+      <path value="$PROJECT_DIR$/public/admin/bower_components/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/public/admin/bower_components/chart.js/package.json" />
+      <path value="$PROJECT_DIR$/public/admin/bower_components/ckeditor/package.json" />
+      <path value="$PROJECT_DIR$/public/admin/bower_components/eve-raphael/package.json" />
+      <path value="$PROJECT_DIR$/public/admin/bower_components/ion.rangeSlider/package.json" />
+      <path value="$PROJECT_DIR$/public/admin/bower_components/jquery-knob/package.json" />
+      <path value="$PROJECT_DIR$/public/admin/bower_components/jquery-slimscroll/package.json" />
+      <path value="$PROJECT_DIR$/public/admin/bower_components/jquery-ui/package.json" />
+      <path value="$PROJECT_DIR$/public/admin/bower_components/morris.js/package.json" />
+      <path value="$PROJECT_DIR$/public/admin/bower_components/select2/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="633" />
+    <option name="y" value="237" />
+    <option name="width" value="670" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="softp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softp" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softp" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softp" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softp" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softp" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="client_js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softp" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softp" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="adminpages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="clientpages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Handlebars" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../node-rest-shop" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\full-stack-projects\softp\views\adminpages" />
+      <recent name="G:\full-stack-projects\softp\views\clientpages" />
+      <recent name="G:\full-stack-projects\softp\public\admin" />
+      <recent name="G:\full-stack-projects\softp\public" />
+      <recent name="G:\full-stack-projects\softp\public\client\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\full-stack-projects\softp\public\admin" />
+      <recent name="G:\full-stack-projects\softp\views\adminpages" />
+      <recent name="G:\full-stack-projects\softp\views\partials" />
+      <recent name="G:\full-stack-projects\softp\views\layouts" />
+      <recent name="G:\full-stack-projects\softp\public" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="562a25c8-0bbc-4ab7-8642-0883b1fc8374" name="Default" comment="" />
+      <created>1550677518496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550677518496</updated>
+      <workItem from="1550677520551" duration="1066000" />
+      <workItem from="1550678723412" duration="471000" />
+      <workItem from="1550679245997" duration="4065000" />
+      <workItem from="1550718758048" duration="3561000" />
+      <workItem from="1550753332510" duration="4689000" />
+      <workItem from="1550811382470" duration="7479000" />
+      <workItem from="1551031941269" duration="7000" />
+      <workItem from="1551104076964" duration="508000" />
+      <workItem from="1553008385193" duration="4359000" />
+      <workItem from="1553228201905" duration="10143000" />
+      <workItem from="1553259502993" duration="4212000" />
+      <workItem from="1553337955713" duration="4883000" />
+      <workItem from="1553396499385" duration="3470000" />
+      <workItem from="1553435213350" duration="599000" />
+      <workItem from="1553486758299" duration="3281000" />
+      <workItem from="1553571079199" duration="9197000" />
+      <workItem from="1553606574687" duration="7713000" />
+      <workItem from="1553656395228" duration="19349000" />
+      <workItem from="1553743000274" duration="4891000" />
+      <workItem from="1553782253873" duration="9880000" />
+      <workItem from="1553865316215" duration="4371000" />
+      <workItem from="1554530695859" duration="62479000" />
+      <workItem from="1554694899331" duration="8936000" />
+      <workItem from="1554728297266" duration="7949000" />
+      <workItem from="1554774669389" duration="11790000" />
+      <workItem from="1554831536353" duration="2999000" />
+      <workItem from="1554899696897" duration="17537000" />
+      <workItem from="1554962063285" duration="1891000" />
+      <workItem from="1555162100391" duration="5122000" />
+      <workItem from="1555214502218" duration="37183000" />
+      <workItem from="1555298611779" duration="6351000" />
+      <workItem from="1555333629986" duration="7294000" />
+      <workItem from="1555388887397" duration="10540000" />
+      <workItem from="1555425369046" duration="1221000" />
+      <workItem from="1555648693196" duration="530000" />
+      <workItem from="1555770518273" duration="1055000" />
+      <workItem from="1555817186583" duration="4082000" />
+      <workItem from="1555902807137" duration="7450000" />
+      <workItem from="1555992245731" duration="1127000" />
+      <workItem from="1556284404775" duration="719000" />
+      <workItem from="1556429676093" duration="4729000" />
+      <workItem from="1556475947201" duration="1538000" />
+      <workItem from="1556504334984" duration="42349000" />
+      <workItem from="1556627455928" duration="9882000" />
+      <workItem from="1556685597788" duration="33605000" />
+      <workItem from="1556765743632" duration="22535000" />
+      <workItem from="1557140237738" duration="5353000" />
+      <workItem from="1557207583134" duration="7365000" />
+      <workItem from="1557222344419" duration="12658000" />
+      <workItem from="1557285959252" duration="13797000" />
+      <workItem from="1557305319079" duration="9984000" />
+      <workItem from="1557318797517" duration="30356000" />
+      <workItem from="1557405349867" duration="19249000" />
+      <workItem from="1557458211449" duration="53955000" />
+      <workItem from="1557520527886" duration="123000" />
+      <workItem from="1557543651841" duration="18682000" />
+      <workItem from="1557976702528" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="590639000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32843137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24205749" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.329429" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" weight="0.329429" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23827533" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="14" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/admin/bower_components/bootstrap/dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="22431" selection-start-line="4" selection-start-column="22431" selection-end-line="4" selection-end-column="22431" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UPLOAD_OLD.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="225" column="55" selection-start-line="225" selection-start-column="55" selection-end-line="225" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/fsm.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/article.js" />
+    <entry file="file://$PROJECT_DIR$/views/partials/foooter.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="119" column="6" selection-start-line="119" selection-start-column="6" selection-end-line="119" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/bower_components/font-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/clientpages/upload_book.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="82" column="113" selection-start-line="82" selection-start-column="103" selection-end-line="82" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/response.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3354">
+          <caret line="989" column="18" lean-forward="true" selection-start-line="989" selection-start-column="18" selection-end-line="989" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model_artical_category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/layout.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="182" column="62" selection-start-line="182" selection-start-column="62" selection-end-line="182" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/clientpages/login.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="527" column="20" selection-start-line="527" selection-start-column="20" selection-end-line="527" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model_book-category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/clientpages/homepage.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2538">
+          <caret line="1200" column="27" selection-start-line="1200" selection-start-column="27" selection-end-line="1200" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5chars.ent">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/clientpages/clienthomepage.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="195" column="58" selection-start-line="195" selection-start-column="58" selection-end-line="195" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/book.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="138" column="73" selection-start-line="138" selection-start-column="73" selection-end-line="138" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/client_js/upload_book.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2799">
+          <caret line="365" lean-forward="true" selection-start-line="365" selection-end-line="366" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/clientpages/article_display.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/clientpages/book_display.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3162">
+          <caret line="186" column="41" selection-start-line="186" selection-start-column="41" selection-end-line="186" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.handlebars;hbs;mustache" />
+    <entry file="file://$PROJECT_DIR$/views/clientpages/p_book.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model_book.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model_like.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model_user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="210" column="11" selection-start-line="210" selection-start-column="11" selection-end-line="210" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model_article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/clientpages/shelf.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="54" column="67" selection-start-line="54" selection-start-column="67" selection-end-line="54" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model_shelf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/client_js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="355" column="55" selection-start-line="355" selection-start-column="55" selection-end-line="355" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/adminpages/shortlist_article.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/adminpages/shortlist_book.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/clientpages/upload_article.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="95" column="62" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/adminpages/book_category.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/adminpages/new_article.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="292" column="61" selection-start-line="292" selection-start-column="61" selection-end-line="292" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/adminpages/view_book.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="238" column="61" selection-start-line="238" selection-start-column="61" selection-end-line="238" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/adminpages/view_article.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/adminpages/new_book.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="182" column="61" selection-start-line="182" selection-start-column="61" selection-end-line="182" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/adminpages/rept_user.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/client_header.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3791">
+          <caret line="225" column="60" selection-start-line="225" selection-start-column="60" selection-end-line="225" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/adminpages/dashboard.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2641">
+          <caret line="175" column="23" selection-start-line="175" selection-start-column="23" selection-end-line="175" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/clientpages/p_art.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/admin_header.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3179">
+          <caret line="187" column="50" selection-start-line="187" selection-start-column="50" selection-end-line="187" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/client_js/clientside.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="11" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/adminpages/article_category.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7497">
+          <caret line="441" column="50" selection-start-line="441" selection-start-column="50" selection-end-line="441" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/book.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="97" selection-start-line="62" selection-start-column="88" selection-end-line="62" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

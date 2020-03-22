@@ -1,0 +1,168 @@
+<html>
+<body style="">
+<div class="content-wrapper" style="min-height:600px;">
+    <section class="content">
+        <section class="content-header">
+            <br>
+            <div class="box">
+                <div class="box-header with-border">
+                    <h4 class="text-left">Article Categories</h4>
+
+                    <div class="box-tools pull-right">
+                        <button class="btn btn-info margin fa fa-plus" style="font-size: 15px;height:39px;margin-right: 30px" data-backdrop="static" data-toggle="modal" data-target="#myModal"> Add</button>
+
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip"
+                                title="Collapse">
+                            <i class="fa fa-minus"></i></button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip"
+                                title="Remove">
+                            <i class="fa fa-times"></i></button>
+                    </div>
+                </div>
+
+                <center>
+                    <div class="box-body" style="max-width: 60%">
+{{#each cate as |field index  |}}
+    {{this._id}}
+{{/each}}
+                        <table id="example3" class="table table-striped table-hover" >
+                            <thead>
+                            <th style="width: 20%" class="text-center">Sr No.</th>
+                            <th style="width: 20%" class="text-center">Category</th>
+                            <th style="width: 30%" class="text-center">Number of Articles</th>
+                            <th style="width:5%" class="text-center">Update</th>
+                            <th style="width:5%" class="text-center">Delete</th>
+                            </thead>
+                            <tr style="display: none">
+
+                            </tr>
+                            <!--{{#each cats as |field index  |}}
+                        <tr>
+                            <td class="text-center">{{counter index}}</td>
+                            <td class="text-center">{{this.name}}</td>
+                            <td class="text-center">20</td>
+                            <td class="text-center"><button class="fa fa-edit " style="background: transparent;color: #0b3e6f;border: none" id="{{this._id}}" data-toggle="modal" data-target="#mdledt{{this._id}}">a</button></td>
+                            <td class="text-center"><button class="fa fa-trash" id="{{this._id}}" style="background: transparent;color: red;border: none">a</button></td>
+                        </tr>
+
+          {{/each}}-->
+
+                        </table><br>
+
+
+                        <!--        <table id="my" border="1">
+                                    <thead>
+                                    <th>My 1</th>
+                                    <th>My 2</th>
+                                    </thead>
+                                    <tr>
+                                        <td>M</td>
+                                        <td>mm</td>
+                                    </tr>
+                                </table>
+            <button id="me">My btn</button>-->
+
+                    </div>
+                </center>
+                <div class="box-footer">
+                    Footer
+                </div>
+            </div>
+            <!-- /.box -->
+        </section>
+    </section>
+    <!-- /.content -->
+</div>
+
+<div class="container">
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">New Article Category</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group"><br>
+                        <label for="inputEmail3" class="col-sm-2 control-label"> Category</label>
+
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control"     id="art_cat" placeholder="Book Category Name">
+                        </div>
+                        <div id="err_art_cat" class="text-center"></div>
+                    </div>
+
+                </div><br>
+                <center>   <button type="button" class="btn btn-info"  id="add_art" style="height: 39px">Add Category</button></center>
+                <br><br>
+            </div>
+
+        </div>
+    </div>
+
+
+
+<div class="container">
+
+    <!-- Modal -->
+    {{#each cats as |field index  |}}
+
+        <div class="modal fade" id="ed{{this._id}}" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Edit Book Category </h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group"><br>
+                            <label for="inputEmail3" class="col-sm-2 control-label"> Category</label>
+
+                            <div class="col-sm-10">
+
+                                <input type="text" class="form-control" id="book_cat{{this._id}}" value="{{this.article_type}}" placeholder="Book Category Name" value="">
+                                <input type="hidden" value="{{this.article_type}}" id="h{{this._id}}">
+                            </div>
+                            <div id="err_book_cat" class="text-center"></div>
+                        </div>
+
+                    </div><br>
+                    <center>   <button type="button" class="btn btn-info mybtna"  id="{{this._id}}" style="height: 39px">Edit Category</button></center>
+                    <br><br>
+                </div>
+
+            </div>
+        </div>
+
+    </div>{{/each}}
+    <script src="../../client/assets/js/vendor/jquery.min.js"></script>
+    <!-- <script>
+         $(document).ready(
+                 function() {
+                     alert("in table");
+                     $('#my tr:last').after('<tr><td>My Nkikita</td>' +
+                             '<td>Me nUikita</td></tr>');
+                          });
+         $('#me').click(function () {
+             for(var i=0;i<9;i++)
+             {
+                 $('#my tr:last').after('<tr><td>Mt '+i+'</td>' +
+                         '<td>mi</td></tr>');
+             }
+
+         })
+
+     </script>-->
+</body>
+</html>
+<style>
+    .mybtn{
+
+    }
+</style>

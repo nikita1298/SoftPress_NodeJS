@@ -1,0 +1,183 @@
+<div class="" style="padding: 20px">
+    <div class="container-fluid" style="padding: 10px">
+        <h2>Articles <a href="/">Home Page</a></h2>
+        {{#if login.email}}
+            <a href="/cllogin">Dashoboard</a>
+        {{/if}}
+        {{login.email}}
+    </div>
+
+</div>
+
+<div class="shop-page-content mt-20 mb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 order-1 order-lg-2 mb-md-80 mb-sm-80">
+
+                <div class="row product-isotope shop-product-wrap four-column">
+
+                    <!--=======  single product  =======-->
+                    <input type="hidden" value="{{login.id}}" id="iu">
+                    <!--=======  single product  =======-->
+{{#if login.email}}
+    {{#each art}}
+        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-45 sale">
+            <!--  Nikkkkk{{this.article_title}}
+                          -->  <div class="single-product">
+            <!--=======  single product image  =======-->
+
+            <div class="single-product__image">
+
+                    <a class="image-wrap" data-toggle="modal"
+                       data-target="#ar{{this._id}}">
+                        <img style="border:2px solid lightgrey;height: 290px;width: 250px" src="../../Art_uploads/{{this.user_id}}/{{this.article_title}}/{{this.article_img}}" class="img-fluid" alt="">
+                        <!--           <img src="../../uploads/{{this.user_id}}/{{this.article_title}}/{{this.article_img}}" class="img-fluid" alt="">
+                     -->       </a>
+
+
+
+
+                <div class="single-product__floating-badges">
+                </div>
+
+                <div class="single-product__floating-icons">
+                           <span class=""><a class="lia" id="{{this._id}}"
+                                             data-tippy="Like Book " data-tippy-inertia="true"
+                                             data-tippy-animation="shift-away" data-tippy-delay="50"
+                                             data-tippy-arrow="true" data-tippy-theme="sharpborder"
+                                             data-tippy-placement="left"><i class="fa fa-thumbs-o-up"></i></a></span>
+                    <span class=""><a class="addtoa" id="{{this._id}}" data-tippy="Add to Shelf"
+                                      data-tippy-inertia="true"
+                                      data-tippy-animation="shift-away"
+                                      data-tippy-delay="50" data-tippy-arrow="true"
+                                      data-tippy-theme="sharpborder"
+                                      data-tippy-placement="left"><i class="fa fa-plus"></i></a></span>
+
+
+                    <span class=""><a  id={{this._id}} data-toggle="modal"
+                                       data-target="#ar{{this._id}}" data-tippy="View Book"
+                                       data-tippy-inertia="true"
+                                       data-tippy-animation="shift-away"
+                                       data-tippy-delay="50" data-tippy-arrow="true"
+                                       data-tippy-theme="sharpborder"
+                                       data-tippy-placement="left"><i class="fa fa-book"></i></a></span>
+
+                    <span class=""><a href="#" id={{this._id}} data-toggle="modal"
+                                      data-target="#ar{{this._id}}" data-tippy="View Book"
+                                      data-tippy-inertia="true"
+                                      data-tippy-animation="shift-away"
+                                      data-tippy-delay="50" data-tippy-arrow="true"
+                                      data-tippy-theme="sharpborder"
+                                      data-tippy-placement="left"><i
+                            class="fa fa-download"></i></a></span>
+                </div>
+            </div>
+        </div>
+        </div>
+    {{/each}}
+{{else}}
+    {{#each art}}
+        <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-45 sale">
+            <!--  Nikkkkk{{this.article_title}}
+                          -->  <div class="single-product">
+            <!--=======  single product image  =======-->
+
+            <div class="single-product__image">
+
+                    <a class="image-wrap" data-toggle="modal"
+                       data-target="#ar{{this._id}}">
+                        <img style="border:2px solid lightgrey;height: 290px;width: 250px" src="../../Art_uploads/{{this.user_id}}/{{this.article_title}}/{{this.article_img}}" class="img-fluid" alt="">
+                        <!--           <img src="../../uploads/{{this.user_id}}/{{this.article_title}}/{{this.article_img}}" class="img-fluid" alt="">
+                     -->       </a>
+
+
+
+                <div class="single-product__floating-badges">
+                    </div>
+
+                <div class="single-product__floating-icons">
+                       <span class=""><a href="#" id={{this._id}} data-toggle="modal"
+                                         data-target="#ar{{this._id}}" data-tippy="View Book"
+                                         data-tippy-inertia="true"
+                                         data-tippy-animation="shift-away"
+                                         data-tippy-delay="50" data-tippy-arrow="true"
+                                         data-tippy-theme="sharpborder"
+                                         data-tippy-placement="left"><i class="fa fa-book"></i></a></span>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+    {{/each}}
+
+
+
+{{/if}}
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+{{#if login.email}}
+    {{#each  art}}
+        <div class=" modal  fade" id="ar{{this._id}}" role="dialog">
+            <div class="modal-dialog modal-lg ">
+
+                <!-- Modal content-->
+                <div class="modal-content ">
+                    <div class="modal-header">
+                        <b><h4 class="modal-title" style="font-weight: 600">{{this.book_title}} </h4></b>
+
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <!-- <input type="button" class="btn btn-default pull-right medetail" id="tchange{{this._id}}"
+                           style="margin-right: 30px" value="Book Details">
+
+               -->    </div>
+                    <div class="modal-body">
+                        <div class="">
+                            <center>
+                                <embed src="../../Art_uploads/{{this.user_id}}/{{this.article_title}}/{{this.article_file}}"
+                                       style="border: 2px lightgrey solid" type="application/pdf" width="100%"
+                                       height="600px">
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+
+{{else}}
+    {{#each  art}}
+        <div class=" modal  fade" id="ar{{this._id}}" role="dialog">
+            <div class="modal-dialog modal-lg ">
+
+                <!-- Modal content-->
+                <div class="modal-content ">
+                    <div class="modal-header">
+                        <b><h4 class="modal-title" style="font-weight: 600">{{this.book_title}} </h4></b>
+
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <!-- <input type="button" class="btn btn-default pull-right medetail" id="tchange{{this._id}}"
+                           style="margin-right: 30px" value="Book Details">
+
+               -->    </div>
+                    <div class="modal-body">
+                        <div class="">
+                            <center>
+                                <h3>Plase <a href="/login">Login</a> Frist</h3>
+
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+    {{/if}}

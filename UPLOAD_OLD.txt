@@ -1,0 +1,226 @@
+/*
+const express = require('express');
+const router = express.Router();
+const mongoose = require('mongoose')
+const Bookr = require('../models/model_book');
+const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
+const  multer=require('multer');
+const mkdirp=require('mkdirp');
+const storage=multer.diskStorage({
+    destination : function(req,file,cb){
+//cb(null,'uploads/');
+        var dest = 'uploads/';
+//mkdirp.sync(dest);
+        mkdirp.sync(dest);
+        cb(null, dest);
+    },
+    filename : function(req,file,cbs){
+        var a=new Date().toUTCString();
+        console.log(a);
+        cbs(null,"SATY"+file.originalname);
+    }
+});
+const upload=multer({storage:storage,
+    limits:{
+        fileSize:1024*1024*5
+    },
+  });
+router.get('/', (req, res, next) => {
+    var a = "NIKITA"
+    console.log(a.toLowerCase());
+    res.status(200).json({
+        message: 'Handling get user request'
+    })
+});
+
+router.post('/up_new_book',upload.single('book_image'),function (req,res,next) {
+    console.log("in book");
+    const newbook=new Bookr({
+        _id:new mongoose.Types.ObjectId(),
+        user_id:req.session.userid,
+        author_id:req.body.automplete-1,
+        category_id:req.body.srl,
+        book_title:req.body.up_title,
+        ISBN:req.body.up_isbn,
+        publication_id:req.body.up_pub,
+        edition:req.body.up_edition,
+        publish_year:req.body.up_year,
+        ref_link:req.body.up_rlink,
+      book_image:'dd',
+        book_file:'sta'
+    });
+    newbook.save().then(result => {
+        console.log(result)
+
+    })
+        .catch(err => {
+            console.log(err);
+
+
+        });
+
+
+})
+module.exports=router;
+https://www.youtube.com/watch?v=8BuX_PMxjf0
+https://codeforgeek.com/2014/11/ajax-file-upload-node-js/
+*/
+const Bookr = require('../models/model_book');
+var mkdirp=require('fs')
+
+var express =   require("express");
+var multer  =   require('multer');
+var arr;
+var name;
+var count=0;
+//p.mkdirSync(dirname.sync,0o776);
+//mkdirp.writeFileSync('${dirname.sync}/file.js',"Nkikita Done");
+/*
+mkdirp.writeFile('/uploads/','MyF', (err) => {
+    if (err) {
+        console.error(err+"My Err");
+
+    }
+    else {
+        mkdirp.mkdirSync('uploads/inside');
+    }
+    //file written successfully
+})*/
+
+const router = express.Router();const storage=multer.diskStorage({
+
+    destination : function(req,file,cb){
+
+//cb(null,'uploads/');
+
+        const  dirname={
+            sync:'uploads',
+            async :req.session.userid
+        }
+ //mkdirp.writeFileSync('uploads');
+//        mkdirp.mkdirSync('uploads/dirname.async}',0o776);
+
+
+//mkdir
+      /*  mkdirp.mkdir(dirname.async,(err)=>{
+            if(err){
+                console.log("Err dircreated"+err);
+
+            }
+            else {
+                console.log("uploads/${dirname.sync}/","dircreated")
+            }
+        })*/
+
+
+       /* mkdirp.writeFile('/uploads/', req.session.userid, (err) => {
+            if (err) {
+                console.error(err+"My Err");
+
+            }
+            else {
+           //     mkdirp.mkdirSync(req.session.userid+"0");
+            }
+            //file written successfully
+        })*/
+var dir='uploads/'+req.session.userid
+        try {
+            if (!mkdirp.existsSync(dir)){
+               // fs.mkdirSync(dir)
+                console.log("Dir No Exist");
+                mkdirp.mkdirSync('uploads/'+req.session.userid);
+
+            }
+        } catch (err) {
+            console.log("Dir existing"+err);
+
+        }
+        var dest = 'uploads/'+req.session.userid;
+
+//mkdirp.sync(dest);
+        cb(null, dest);
+    },
+    filename : function(req,file,cbs){
+        var a=new Date().toUTCString();
+        console.log(a);
+        cbs(null,req.session._id+file.originalname);
+       // arr.append(file.originalname);
+count++;
+        if(count==1){
+            name=file.originalname
+            count++
+            console.log("222"+count)
+
+        }
+        else {
+            arr=file.originalname;
+        }
+       console.log(file)
+
+    }
+});
+const upload=multer({storage:storage,
+  /*  limits:{
+        fileSize:1024*1024*5
+    },*/
+  })
+
+router.post('/api/photo',upload.any(),function(req,res){
+   /* upload(req,res,function(err) {
+        if(err) {
+            return res.end("Error uploading file.");
+        }
+
+      //  res.end("File is uploaded");
+    });*/
+
+    const newbook=new Bookr({
+        _id:new mongoose.Types.ObjectId(),
+        user_id:req.session.userid,
+        author_id:req.body.automplete-1,
+        category_id:req.body.srl,
+        book_title:req.body.up_title,
+        ISBN:req.body.up_isbn,
+        publication_id:req.body.up_pub,
+        edition:req.body.up_edition,
+        publish_year:req.body.up_year,
+        ref_link:req.body.up_rlink,
+        book_image:name,
+        book_file:arr
+    });
+    /*newbook.save().then(result => {
+        console.log(result)
+        res.send("Done");
+
+    })
+        .catch(err => {
+            console.log(err);
+
+
+        });*/
+
+
+});
+module.exports=router;
+
+const mongoose=require('mongoose');
+
+const articleSchema=mongoose.Schema({
+    _id:mongoose.Types.ObjectId,
+    article_type:{type:String,required:true},
+    article:[string]/*{
+        article_id:mongoose.Types.ObjectId,
+        user_id:{type:String,require:true,ref:'User'},
+        author_id:{type:String,require:true,ref:'Author'},
+        article_title:{type:String,required:true},
+        article_file:{type:String,require:true},
+        article_img:{type:String,required:true},
+        description:{type:String,require:true},
+        a_status:{type:String,required:true,default:'1'},
+        created_date:{type:Date,default:Date.now()}
+    }*/,
+    status:{type:String,default:'0'},
+    created_date:{type:Date,default:Date.now()}
+});
+module.exports=mongoose.model('Article',articleSchema);

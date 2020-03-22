@@ -1,0 +1,325 @@
+<header class="header header-split header-sticky"
+        style="border-bottom: 1px solid #cfcfcf;max-height: 67px;box-shadow: 0px 0px 8px 2px #edecec;"
+        xmlns="http://www.w3.org/1999/html">
+    <!--=======  header bottom  =======-->
+    <div class="header-bottom pt-md-40 pb-md-40 pt-sm-40 pb-sm-40">
+        <div class="container wide">
+
+            <!--=======  header bottom container  =======-->
+
+            <div class="header-bottom-container">
+
+                <!--=======  logo with off canvas  =======-->
+
+                <div class="logo-with-offcanvas d-flex">
+
+                    <!--=======  offcanvas about icon  =======-->
+
+                    <div class="offcanvas-about-icon mr-20 d-none d-lg-block">
+                        <a href="javascript:void(0)" id="offcanvas-about-icon">
+                            <i><img src="../client/images/allimg/logo.PNG" class="img-circle" width="50px"
+                                    height="39px,"></i>
+                        </a>
+                    </div>
+
+
+                    <!--=======  End of offcanvas about icon  =======-->
+
+                    <!--=======  logo   =======-->
+
+                    <div class="logo"
+                         style="margin-top: -3px;background-color: rgb(255, 255, 255);border: 1px solid rgb(253, 253, 253);color: #2DB5A3;height: 37px;width: 143px">
+                        <a href="/" style="margin-top: 4px;margin-left:5px;font-size: 15px">
+                            <b>SOFTPRESS.COM</b>
+                        </a>
+                    </div>
+
+                    <!--=======  End of logo 2DB5A3  =======-->
+                </div>
+
+                <!--=======  End of logo with off canvas  =======-->
+
+                <!--=======  header bottom navigation  =======-->
+
+                <div class="header-bottom-navigation">
+                    <div class="site-main-nav d-none d-lg-block">
+
+                        <div class="split-navigation-container d-flex justify-content-center"
+                             style="justify-content: left;margin-left: -330px">
+                            <nav class="site-nav center-menu mr-300 mr-lg-80" style="    margin-top: -7px;
+									margin-bottom: -3px;
+								">
+                                <ul>
+                                    <li class="menu-item-has-children"><a href="#" style="font-weight:600">Discover
+                                        Book</a>
+                                        <ul class="sub-menu mega-menu mega-menu-column-4" id="fullbookcat">
+                                         <!--{{#each bact}}
+                                                <li>
+                                                    <ul class="mega-sub-menu">
+                                                        {{#each this}}
+
+                                                            <li><a id="{{this._id}}" class="hbcat">{{this.name}}</a>
+                                                            </li>
+                                                        {{/each}}
+                                                    </ul>
+                                                </li>
+                                            {{/each}}-->
+                                            <li>
+                                                <div class="menu-image" style="position: inherit; padding-right: 0">
+                                                    <img src="../../Atthegoingdownofthesun_mockup.png"
+                                                         class="img-fluid" alt="" style="height: 230px;width: 200px;">
+
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children"><a href="#"
+                                                                          style="font-weight:600">Discover Articals</a>
+
+
+                                            <ul class="sub-menu mega-menu mega-menu-column-4" id="fullartcat">
+                                       <!-- {{#each arcat}}
+
+                                                <li>
+                                                    <ul class="mega-sub-menu">
+                                                        {{#each this}}
+                                                        <li><a id="{{this._id}}" class="hacat">{{this.article_type}}</a></li>
+                                                              {{/each}}</ul>
+                                                </li>
+                                        {{/each}}-->
+                                                <li>
+                                                    <div class="menu-image" style="position: inherit; padding-right: 0">
+                                                        <img src="../../icon-brn-article-e1549317124439.jpg"  style="height: 230px;width: 200px;"
+                                                             class="img-fluid" alt="">
+                                                    </div>
+                                                </li>
+                                              <!--  <li>
+                                                    <div class="menu-image" style="position: inherit; padding-right: 0">
+                                                        <img src="../../BE_VIGILANT_WITH_YOUR_KIDS.jpg"  style="height: 230px;width: 200px;"
+                                                             class="img-fluid" alt="">
+                                                    </div>
+                                                </li>-->
+
+                                            </ul>
+
+                                    </li>
+                                </ul>
+                            </nav>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--=======  End of header bottom navigation  =======-->
+
+                <!--=======  headeer right container  =======-->
+
+                <div class="header-right-container" style="margin-right: 10px">
+
+                    <!--=======  header right icons  =======-->
+
+                    <div class="header-right-icons d-flex justify-content-end align-items-center h-100">
+                        <!--=======  single-icon  =======-->
+
+
+                        <!--=======  End of single-icon  =======-->
+                        <!--=======  single-icon  =======-->
+                        {{#if login.email}}
+                            <!-- <div class="single-icon user-login">
+                              &lt;!&ndash;   <button style="background-color:transparent;border:none;font-weight:600" data-toggle="modal" data-target="#myModal">Login</button>
+     &ndash;&gt;      <a href="/login" >
+                                 <i class="ion-android-person"></i>
+                             </a>djh
+                             </div>-->
+                            <!--    <style>
+                                    .dropdown:hover>.dropdown-menu {
+                                        display: block;
+                                    }
+                                </style>-->
+                            <nav class="site-nav center-menu mr-0" id="acc" style="display: none;">
+                                <ul>
+                                    <li class="menu-item-has-children"><a href="javascript:void(0)">My Account</a>
+                                        <ul class="sub-menu single-column-menu">
+                                            <li><a href="/cllogin"><i
+                                                    style="margin-right: 10px;margin-left: 5px;font-size: 30px"
+                                                    class="fa fa-user-circle"></i>{{login.email}}</a></li>
+                                            <li><a href="about-us-2.html"><i class="fa fa-bell-o"
+                                                                             style="font-size:20px;margin-right: 10px;margin-left: 5px"></i>My
+                                                Shelf</a></li>
+                                            <li><a href="/rtf"><i class="fa fa-dollar"
+                                                                  style="font-size:20px;margin-right: 13px;margin-left: 5px"></i>Refer
+                                                friend</a></li>
+                                            <li><a href="contact-us.html"><i class="fa fa-user-md"
+                                                                             style="font-size:20px;margin-right: 10px;margin-left: 5px"></i>Profile</a>
+                                            </li>
+                                            <li><a href="coming-soon.html"><i class="fa fa-key"
+                                                                              style="font-size:20px;margin-right: 10px;margin-left: 5px"></i>Change
+                                                Password</a></li>
+                                            <li><a href="/lgout"><i class="fa fa-power-off"
+                                                                    style="font-size:20px;margin-right: 13px;margin-left: 5px"></i>Logout</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!-- <div class="dropdown">
+
+                                 <a class=" " style="font-size:15px;font-weight: 600;" data-toggle="dropdown">
+                                    My Account <span class="fa fa-caret-down" style="color: #000;font-size: 12px"></span>
+                                 </a>
+                                 <div class="dropdown-menu" style="left: -30px">
+                                     <a class="dropdown-item" href="#">Link 1</a>
+                                     <a class="dropdown-item" href="#">Link 2</a>
+                                     <a class="dropdown-item" href="#">Link 3</a>
+                                 </div>
+                             </div>-->
+                        {{else}}
+                            <div class="single-icon user-login">
+                                <!--   <button style="background-color:transparent;border:none;font-weight:600" data-toggle="modal" data-target="#myModal">Login</button>
+       --> <a href="/login">
+                                <i class="ion-android-person"></i>
+                            </a>
+                            </div>
+
+                        {{/if}}
+                        <!-- <div class="single-icon user-login">
+                             <button style="background-color:transparent;border:none;font-weight:600" data-toggle="modal" data-target="#myrModal">Register</button>
+
+                         </div>-->
+                        <div class="single-icon search">
+                            <a href="javascript:void(0)" id="search-icon">
+                                <i class="ion-ios-search-strong"></i>
+                            </a>
+                        </div>
+
+                        <!--=======  End of single-icon  =======-->
+                        <!--=======  single-icon  =======-->
+
+
+                        <!--=======  End of single-icon  =======-->
+                    </div>
+                    <!--=======  End of header right icons  =======-->
+
+                </div>
+
+                <!--=======  End of headeer right container  =======-->
+
+
+            </div>
+
+            <!--=======  End of header bottom container  =======-->
+
+            <!-- Mobile Navigation Start Here -->
+
+            <div class="site-mobile-navigation d-block d-lg-none">
+                <div id="dl-menu" class="dl-menuwrapper site-mobile-nav">
+                    <!--Site Mobile Menu Toggle Start-->
+                    <button class="dl-trigger hamburger hamburger--spin" style="margin-top: -7px">
+							<span class="hamburger-box">
+								<span class="hamburger-inner"></span>
+							</span>
+                    </button>
+                    <!--Site Mobile Menu Toggle End-->
+                    <ul class="dl-menu dl-menu-toggle">
+                        <li class=""><a href="#">Discover Books</a>
+                            <ul class="dl-submenu" id="mmbc">
+                             <!--   {{#each mbcat}}
+                                    <li class=""><a id="{{this._id}}" class="hbcat">{{this.name}}</a>
+
+                                    </li>
+                                {{/each}}-->
+
+
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Discover Articales</a>
+                            <ul class="dl-submenu" id="mmac">
+                              <!--  {{#each macat}}
+                                <li class=""><a  class="hrcat">{{this.article_type}}</a>
+
+                                </li>
+                                    {{/each}}-->
+
+
+                            </ul>
+                        </li>
+                        {{#if login.email}}
+                        <li><a href="#">My Account</a>
+                            <ul class="dl-submenu">
+                                <li class=""><a href="#">My Shelf</a>
+
+                                </li>
+                                <li class=""><a href="#">Refer Friend</a>
+
+                                </li>
+                                <li class=""><a href="#">Profile</a>
+
+                                </li>
+                                <li class=""><a href="#">Change Password</a>
+
+                                </li>
+
+                                <li class=""><a href="#">Logout</a>
+
+                                </li>
+
+
+
+                            </ul>
+                        </li>
+                            {{else}}
+    <li><a href="/login">Login</a></li>
+                            {{/if}}
+                    </ul>
+                </div>
+            </div>
+            <!-- Mobile Navigation End Here -->
+        </div>
+    </div>
+    <!--=======  End of header bottom  =======-->
+</header>
+
+<div class="container">
+    <!-- Trigger the modal with a button -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content"
+                 style="box-shadow: 0px 0px 7px 3px rgba(23, 23, 23, 0.63);-moz-box-shadow: 0px 0px 7px 3px rgba(23, 23, 23, 0.63);-webkit-box-shadow: 0px 0px 7px 3px rgba(23, 23, 23, 0.63);">
+                <div class="modal-header modhed">
+                    <h3 class="modal-title pull-left"><b>Login</b></h3>
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>Greate to have you back !</p>
+                    <form>
+                        <div class="text-center mb-25">
+
+                            <input type="text" placeholder="Email Address or Mobile Number" required class="logintxt">
+                        </div>
+                        <div class="text-center mb-25">
+
+                            <input type="password" placeholder="Password" class="logintxt" required>
+                        </div>
+                        <div class="col-lg-12 text-center mb-0">
+                            <button class="lezada-button lezada-button--medium ">login</button>
+                        </div>
+
+                        <div class="mt-10">
+                            <a href="#" class="reset-pass-link">Lost your password?</a>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>

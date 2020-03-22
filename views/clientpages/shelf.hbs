@@ -1,0 +1,199 @@
+<div class="" style="padding: 20px">
+  <hr>  <div class="container-fluid" style="padding: 10px">
+    <h2><span id="togshe">Book Shelf</span>
+    <input type="button" class="pull-right btn btn-default" value="Show Article Shelf" id="toggleshelf"></input>
+        </h2> </div><hr>
+</div>
+
+<div class="shop-page-wrapper" style="margin-top: -24px;">
+
+    <!--=======  shop page header  =======-->
+
+
+
+
+
+    <div class="shop-page-content mt-20 mb-100" id="shelfbook">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 order-1 order-lg-2 mb-md-80 mb-sm-80">
+
+                    <div class="row product-isotope shop-product-wrap four-column">
+
+                        <!--=======  single product  =======-->
+
+                        <!--=======  single product  =======-->
+
+                        {{#each newb}}
+                            {{#ifCond this.model_t 'b'}}
+                            <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-45 new">
+                                <!--    new{{this.book_id.book_title}}
+                        -->    <div class="single-product">
+                                <!--=======  single product image  =======-->
+
+                                <div class="single-product__image" >
+
+                                        <a class="image-wrap" href="" data-toggle="modal"
+                                           data-target="#ab{{this.book_id._id}}">
+                                            <img style=" border:2px solid lightgrey;height: 290px;width: 250px" src="../../uploads/{{this.book_id.user_id}}/{{this.book_id.book_title}}/{{this.book_id.book_image}}" class="img-fluid" alt="">
+                                            <!--     <img src="../../uploads/{{this.book_id.user_id}}/{{this.book_id.book_title}}/{{this.book_id.book_image}}" class="img-fluid" alt="">
+                                  -->  </a>
+
+
+
+                                    <div class="single-product__floating-badges">
+                                    </div>
+
+                                    <div class="single-product__floating-icons">
+                                       <!-- <span class=""><a href="#"  id={{this.book_id._id}} data-toggle="modal"
+                                                          data-target="#c{{this.book_id._id}}"
+                                                          data-tippy="View Book Details" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" data-tippy-placement = "left" ><i class="fa fa-eye"></i></a></span>
+                                       --> <span class=""><a href="#" id={{this.book_id._id}} data-toggle="modal"
+                                                          data-target="#ab{{this.book_id._id}}" data-tippy="View Book" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" data-tippy-placement = "left" ><i class="fa fa-book"></i></a></span>
+                                        <!--    <span class="quickview"><a  class="cd-trigger" href="#qv-1" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" data-tippy-placement = "left"  ><i class="ion-ios-search-strong"></i></a></span>
+                                      -->
+                                        <input type="hidden" id="hbid{{this.book_id._id}}" value="{{this._id}}">
+
+                                        <span class=""><a href="#" id="{{this.book_id._id}}" class="shrb" data-tippy="Remove Book" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" data-tippy-placement = "left" ><i class="fa fa-trash" style="color: red;"></i></a></span>
+
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            {{/ifCond}}
+
+                        {{/each}}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--=====  End of shop page content  ======-->
+    </div>
+    <!-- ./Tabs -->
+
+
+
+    <div class="shop-page-content mt-20 mb-100" id="shelfart">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 order-1 order-lg-2 mb-md-80 mb-sm-80">
+
+                    <div class="row product-isotope shop-product-wrap four-column">
+
+                        <!--=======  single product  =======-->
+
+                        <!--=======  single product  =======-->
+
+                        {{#each art}}
+
+                                <div class="col-12 col-lg-3 col-md-6 col-sm-6 mb-45 new">
+                                    <!--    new{{this.art_id.article_title}}
+                        -->
+                                 <div class="single-product">
+                                    <!--=======  single product image  =======-->
+
+                                    <div class="single-product__image" >
+                                        {{this.art_id._id}}
+                                        <a class="image-wrap" href="" data-toggle="modal"
+                                           data-target="#as{{this.art_id._id}}">
+                                            <img style=" border:2px solid lightgrey;height: 290px;width: 250px" src="../../Art_uploads/{{this.art_id.user_id}}/{{this.art_id.article_title}}/{{this.art_id.article_img}}" class="img-fluid" alt="">
+                                            <!--     <img src="../../uploads/{{this.book_id.user_id}}/{{this.book_id.book_title}}/{{this.book_id.book_image}}" class="img-fluid" alt="">
+                                  -->  </a>
+
+
+
+                                        <div class="single-product__floating-badges">
+                                        </div>
+
+                                        <div class="single-product__floating-icons">
+                                       <!-- <span class=""><a href="#"  id={{this.art_id._id}} data-toggle="modal"
+                                                          data-target="#c{{this.art_id._id}}"
+                                                          data-tippy="View Article Details" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" data-tippy-placement = "left" ><i class="fa fa-eye"></i></a></span>
+                                       -->     <span class=""><a href="#" id={{this.art_id._id}} data-toggle="modal"
+                                                              data-target="#as{{this.art_id._id}}" data-tippy="View Book" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" data-tippy-placement = "left" ><i class="fa fa-book"></i></a></span>
+                                            <!--    <span class="quickview"><a  class="cd-trigger" href="#qv-1" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" data-tippy-placement = "left"  ><i class="ion-ios-search-strong"></i></a></span>
+                                          -->
+                                            <span class=""><a id="{{this.art_id._id}}" class="shra" data-tippy="Remove from shelf" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme = "sharpborder" data-tippy-placement = "left" ><i class="fa fa-trash" style="color: red;"></i></a></span>
+<input type="hidden" id="haid{{this.art_id._id}}" value="{{this._id}}">
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+
+
+                        {{/each}}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--=====  End of shop page content  ======-->
+    </div>
+
+
+
+</div>
+
+
+{{#each  newb}}
+    <div class=" modal  fade" id="ab{{this.book_id._id}}" role="dialog">
+        <div class="modal-dialog modal-lg ">
+
+            <!-- Modal content-->
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <b><h4 class="modal-title" style="font-weight: 600">{{this.book_id.book_title}} </h4></b>
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- <input type="button" class="btn btn-default pull-right medetail" id="tchange{{this._id}}"
+                           style="margin-right: 30px" value="Book Details">
+
+               -->    </div>
+                <div class="modal-body">
+                    <div class="">
+                        <center>
+                            <embed src="../../uploads/{{this.book_id.user_id}}/{{this.book_id.book_title}}/{{this.book_id.book_file}}"
+                                   style="border: 2px lightgrey solid" type="application/pdf" width="100%"
+                                   height="600px">
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/each}}
+
+
+
+{{#each  art}}
+    <div class=" modal  fade" id="as{{this.art_id._id}}" role="dialog">
+        <div class="modal-dialog modal-lg ">
+
+            <!-- Modal content-->
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <b><h4 class="modal-title" style="font-weight: 600">{{this.art_id.article_title}} </h4></b>
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- <input type="button" class="btn btn-default pull-right medetail" id="tchange{{this._id}}"
+                           style="margin-right: 30px" value="Book Details">
+
+               -->    </div>
+                <div class="modal-body">
+                    <div class="">
+                        <center>
+                            <embed src="../../Art_uploads/{{this.art_id.user_id}}/{{this.art_id.article_title}}/{{this.art_id.article_file}}"
+                                   style="border: 2px lightgrey solid" type="application/pdf" width="100%"
+                                   height="600px">
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/each}}
+
+

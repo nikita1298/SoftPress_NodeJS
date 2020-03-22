@@ -1,0 +1,24 @@
+
+.nm{
+  box-shadow: 0 0 5px #ccc;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  width: 20%;
+}
+.nm:hover{
+
+  box-shadow: 0 0 5px #999;
+
+}
+.g{
+  padding-top: 7px;;
+}
+.g:hover{
+  opacity: 0.3;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+
+}
+
+.myb{
+
+}

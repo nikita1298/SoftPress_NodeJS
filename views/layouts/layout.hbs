@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+{{#if condi}}
+
+    <link rel="icon"  href="../../admin/images/Untitled.PNG" />
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="../../admin/bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Font Awesome
+    <link rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="../../admin/bower_components/Ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../../admin/bower_components/Ionicons/css/ionicons.css">
+    <link rel="stylesheet" href="../../admin/bower_components/jvectormap/jquery-jvectormap.css">
+    <link rel="stylesheet" href="../../admin/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="../../admin/style.default.css">
+<link rel="stylesheet" href="../../admin/masonry.pkgd.min.js">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../../admin/dist/css/AdminLTE.min.css">
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="../../admin/dist/css/skins/all-skins.min.css">
+    <!----><link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="../../fsm.css" >
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+
+
+    <body>
+    {{>admin_header}}
+    {{{body}}}
+
+
+
+    <script src="../../admin/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="../../admin/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- SlimScroll -->
+    <script src="../../admin/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <!-- FastClick -->
+    <script src="../../admin/bower_components/fastclick/lib/fastclick.js"></script>
+
+    <script src="../../admin/book.js"></script>
+
+    <!-- AdminLTE App -->
+    <script src="../../admin/dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="../../admin/dist/js/demo.js"></script>
+    <!-- DataTables -->
+    <script src="../../admin/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="../../admin/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+
+    <script>
+        $(function () {
+            $('#example1').DataTable()
+            $('#example2').DataTable({
+                'paging'      : true,
+                'lengthChange': false,
+                'searching'   : false,
+                'ordering'    : true,
+                'info'        : true,
+                'autoWidth'   : false
+            })
+        })
+    </script>
+    </body>
+
+
+
+
+
+
+
+
+{{else}}
+
+  <head>
+    <title>{{title}}</title>
+      <link rel="icon" href="../clientpages/client/images/allimg/logoico.png">
+
+      <!-- CSS
+      ============================================ -->
+      <!-- Bootstrap CSS -->
+      <link href="client/assets/css/bootstrap.min.css" rel="stylesheet">
+      <link href="client/assets/css/custom.css" rel="stylesheet">
+      <!-- FontAwesome CSS -->
+      <link href="client/assets/css/font-awesome.min.css" rel="stylesheet">
+
+      <!-- Ionicons CSS -->
+      <link href="client/assets/css/ionicons.min.css" rel="stylesheet">
+
+      <!-- Themify CSS -->
+      <link href="client/assets/css/themify-icons.css" rel="stylesheet">
+
+      <!-- Plugins CSS -->
+      <link href="client/assets/css/plugins.css" rel="stylesheet">
+
+      <!-- Helper CSS -->
+      <link href="client/assets/css/helper.css" rel="stylesheet">
+
+      <!-- Main CSS -->
+      <link href="client/assets/css/main.css" rel="stylesheet">
+
+      <!-- Revolution Slider CSS -->
+      <link href="client/assets/revolution/css/settings.css" rel="stylesheet">
+      <link href="client/assets/revolution/css/navigation.css" rel="stylesheet">
+      <link href="client/assets/revolution/custom-setting.css" rel="stylesheet">
+
+      <!-- Modernizer JS -->
+      <script src="client/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+
+
+  </head>
+  <body>
+  {{>client_header}}
+    {{{body}}}
+  {{>foooter}}
+
+
+    <!-- JS
+    ============================================ -->
+    <!-- jQuery JS -->
+    <script src="client/assets/js/vendor/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="client/assets/js/popper.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="client/assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins JS -->
+    <script src="client/assets/js/plugins.js"></script>
+
+    <!-- Main JS -->
+    <script src="client/assets/js/main.js"></script>
+
+    <!-- Revolution Slider JS -->
+    <script src="client/assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="client/assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="client/assets/revolution/revolution-active.js"></script>
+
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+    <script type="text/javascript" src="client/assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="client/assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="client/assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="client/assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="client/assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="client/assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+
+    <script type="text/javascript" src="client/assets/js/custom.js"> </script>
+
+  <script rel="text/javascript" src="client/client_js/login.js"></script>
+   </body>
+
+
+  <script src="javascripts/jquery.min.js" type="text/javascript"></script>
+  <script src="javascripts/cus.js" type="text/javascript"></script>
+
+    {{/if}}
+
+<script src="../../client/client_js/upload_book.js"></script>
+
+{{#if upbook}}
+<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+      rel = "stylesheet">
+<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="javascripts/jquery.min.js" type="text/javascript"></script>
+
+<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+{{/if}}<!--
+<link rel="stylesheet" href="../../fsm.css" >-->
+<script src="../../admin/article.js"></script>
+<script rel="text/javascript" src="client/client_js/clientside.js"></script>
+
+</html>

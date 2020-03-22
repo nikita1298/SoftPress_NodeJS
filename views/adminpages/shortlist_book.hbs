@@ -1,0 +1,92 @@
+<html>
+<body style="">
+<div class="content-wrapper" style="min-height:600px;">
+    <section class="content">
+        <section class="content-header">
+            <br>
+            <div class="box">
+                <div class="box-header with-border">
+                    <h4 class="text-left">Book Categories</h4>
+
+                    <div class="box-tools pull-right">
+                        <button class="btn btn-info margin fa fa-plus" style="font-size: 15px;height:39px;margin-right: 30px" data-backdrop="static" data-toggle="modal" data-target="#myModal"> Add</button>
+
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip"
+                                title="Collapse">
+                            <i class="fa fa-minus"></i></button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip"
+                                title="Remove">
+                            <i class="fa fa-times"></i></button>
+                    </div>
+                </div>
+
+<center>
+                <div class="box-body" style="max-width: 60%">
+
+                    <table id="example2" class="table table-striped table-hover" >
+                        <thead>
+                        <th style="width: 20%" class="text-center">Sr No.</th>
+                        <th style="width: 20%" class="text-center">Category</th>
+                        <th style="width: 30%" class="text-center">Number of books</th>
+                        <th style="width:5%" class="text-center">Update</th>
+                        <th style="width:5%" class="text-center">Delete</th>
+                        </thead>
+      {{#each cats as |field index  |}}
+                        <tr>
+                            <td class="text-center">{{counter index}}</td>
+                            <td class="text-center">{{this.name}}</td>
+                            <td class="text-center">20</td>
+                            <td class="text-center"><button class="fa fa-edit " style="background: transparent;color: #0b3e6f;border: none" id="{{this._id}}"></button></td>
+                            <td class="text-center"><button class="fa fa-trash" id="{{this._id}}" style="background: transparent;color: red;border: none"></button></td>
+                        </tr>
+
+          {{/each}}
+
+                    </table><br>
+
+                </div>
+            </center>
+                <div class="box-footer">
+                    Footer
+                </div>
+            </div>
+            <!-- /.box -->
+        </section>
+        </section>
+        <!-- /.content -->
+</div>
+
+<div class="container">
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">New Book Category</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group"><br>
+                        <label for="inputEmail3" class="col-sm-2 control-label"> Category</label>
+
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="book_cat" id="book_cat" placeholder="Book Category Name">
+                        </div>
+                        <div id="err_book_cat" class="text-center"></div>
+                    </div>
+
+                </div><br>
+                  <center>   <button type="button" class="btn btn-info"  id="add_cat" style="height: 39px">Add Category</button></center>
+             <br><br>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+</body>
+
+</html>

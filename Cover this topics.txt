@@ -1,0 +1,18 @@
+HTML
+CSS
+JAVASCRIPT
+NODE JS
+
+
+Stateless/stateful Web interactions in websockets long-polling, serve push
+Expertise in web technologies and APIs and a solid understanding on fundamentals of TCP/IP, HTTP, JavaScript engines
+Strong desire to learn and grow, while building the best in class systems
+Strong flair for effective communication and collaboration - you know when to push on and when to step back
+An ability to have fun while workinsg on the hardest problems
+
+
+You are knowledgeable in Javascript typing languages/linters (Flow/TypeScript)
+* You are knowledgeable in data access/modeling (GraphQL/Falcor, RPC/Thrift)
+* You are knowledgeable in WebSockets, Server Sent Events, or HTTP/2 Server Push
+* You are familiar with service-oriented architecture, microservices, and distributed systems
+
